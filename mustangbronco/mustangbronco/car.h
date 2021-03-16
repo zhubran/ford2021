@@ -5,7 +5,8 @@ using namespace std;
 
 class Car {
 public:
-    void car_output(int input, std::ostream& os) {
+    //Main function for the exercise
+    void car_output(int input, std::ostream& os) { 
         if (!(input % 3) && !(input % 5)) {
             os << "MustangBronco\n";
         }
